@@ -181,9 +181,9 @@ int main(int argc, char** argv) {
   if(DB) { printf("### Start! ###\n"); }
 
   if(perform_get_request(argv[1], argv[2])) { 
-	if(DB) { printf("Operation Succeeded\n"); }
+	printf("Operation Succeeded\n"); 
   } else {
-	if(DB) { printf("Operation Failed\n"); }
+	printf("Operation Failed\n");
   }
 
   if(DB) { printf("### Completed! ###\n"); }

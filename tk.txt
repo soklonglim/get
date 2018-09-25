@@ -1,0 +1,14 @@
+added assertions for preventing writing to read only objects
+- added a test for GenRwire()
+- added tests for fast loading from shared memory
+- added tests for jaccard similarity
+- improved printing of 64-bit values
+- renamed AddAtm() to AddMP()
+- replaced GetMn() with explicit code to enable compilation in Snap.py
+- removed profiling code from GetTriangleCnt()
+- removed a redundant openmp flag from Makefile
+- removed dependency of table.h on centr.h
+- moved MapPageRank() and MapHits() from table.h to centr.h
+- moved GetMapPageRank() and GetMapHitsIterator() from table.h to centr.cpp
+- made edits for the code to compile with gcc on Mac OS X 10.9 and clang on
+  macOS 10.12

@@ -1,0 +1,12 @@
+EANet
+- implemented a backward compatible load function TNEANet::Load_V2()
+- implemented a method to convert a dense network to sparse
+  TNEANet::ConvertToSparse()
+- implemented node2vec for TNEANet, TNGraph, and TNodeEDatNet
+- defined a number of new vector and hash classes
+- implemented base TNum class for integer based classes
+- implemented a class for 64-bit integers TInt64
+- expanded TVVVec to work with 64-bit integers
+- expanded TVVec to work with 64-bit integers
+- changed API for centrality calculations so that IsDir is the last parameter
+- improved the code for betweenness centr

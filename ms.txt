@@ -1,0 +1,15 @@
+Release 4.0, Jul 27, 2017
+
+This is a major release and brings significant new functionality: local
+higher-order clustering, counting of temporal motifs, node embedding with
+node2vec, locality sensitive hashing, K nearest neighbor graph construction,
+fast object loading using memory mapped files, and sparse attributes.
+
+Here is a detailed list:
+
+- implemented local higher-order clustering, see examples/localmotifcluster
+- implemented counting of temporal motifs, see examples/temporalmotifs
+- implemented node embedding with node2vec, see examples/node2vec
+- implemented locality sensitive hashing, see examples/lshtest
+- implemented K nearest neighbor graph construction, see
+  examples/knnjaccardsim

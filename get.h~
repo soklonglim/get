@@ -25,7 +25,7 @@
 
 
 char* get_username(uid_t uid);
-bool is_exist(char* fname);
+bool is_exist(char* fname)
 bool match_ownership(const char* fname, const char *access);
 int check_access_file(const char* fname);
 bool copy_file(char* source, char* destination);

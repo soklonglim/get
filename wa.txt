@@ -1,1 +1,10 @@
-t state, with an area of 71,362 square miles (184,827 km2), and the 13th most populous state, with more than 7.4 million people. Approximately 60 percent of Washington's residents live in the Seattle metropolitan area, the center of transportation, business, and industry along Puget Sound, an inlet of the Pacific Ocean consisting of numerous islands, deep fjords, and bays carved out by glaciers. The remainder of the state consists of: deep temperate rainforests in the west; mountain ranges in the west, central, northeast, and far southeast; and a semi-arid basin region in the east, central, and south, given over to intensive agriculture. Washington is the second most populous state on the West Coast and in the Western United States, after California. Mount Rainier, an active stratovolcano, is the state's highest elevation, at almost 14,411 feet (4,392 meters), and is the most topographically prominent mountain in the contiguous United States. 
+Release Notes for SNAP
+
+Stanford Network Analysis Platform (SNAP) is a general purpose, high
+performance system for graph and network manipulation and analysis.
+
+This file contains a high-level description of changes in SNAP releases.
+
+Release 4.1, Jul 25, 2018
+
+This is a minor release and brings several bug fixes and improvements.

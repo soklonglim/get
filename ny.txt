@@ -1,0 +1,11 @@
+ fixed the parsing of floating point numbers in TSsParserMP
+- fixed bugs in temporal motif counting, ignore self loops
+- fixed a bug in GetWeightedShortestPath()
+- fixed a bug in GenRndPowerLaw(), GenDegSeq() requires a sorted vector
+- fixed a crash in GetESubGraph() for multigraphs
+- improved LoadPajek(), so that it can read edges without weights
+- improved the parsing of integers in TSsParserMP
+- improved the quality of word2vec embeddings
+- added a flag for random walk output in node2vec
+- defined a new type TFltVFltV for TVec<TFltV>
+- fixed compilation errors and a few compilation warnings on m
